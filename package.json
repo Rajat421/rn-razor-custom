@@ -1,0 +1,21 @@
+{
+  "name": "react-native-customui",
+  "version": "2.1.8",
+  "description": "React Native wrapper for Razorpay SDK",
+  "main": "Razorpay.js",
+  "dependencies": {
+    "@babel/core": "^7.1.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.64.0"
+  },
+  "keywords": [
+    "react-native",
+    "razorpay",
+    "payments"
+  ],
+  "author": "Razorpay Developers <developers@razorpay.com> (https://razorpay.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/razorpay/react-native-razorpay#readme"
+}
