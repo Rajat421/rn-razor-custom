@@ -146,7 +146,7 @@ RCT_EXPORT_METHOD(open : (NSDictionary *)options) {
 }
 
 - (void)resizeView{
-    CGFloat paddingTop = [UIApplication sharedApplication].statusBarHidden ? 0 : 20;
+    CGFloat paddingTop = [UIApplication sharedApplication].statusBarHidden ? 0 : 10;
     CGSize size = [[UIScreen mainScreen] bounds].size;
     CGFloat statusHeight = 44;
     [webview setFrame:CGRectMake(0, statusHeight + paddingTop, size.width,
